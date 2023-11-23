@@ -619,7 +619,6 @@ public class SoundRecorder extends Activity
         cv.put(MediaStore.Audio.Media.IS_MUSIC, "0");
 
         cv.put(MediaStore.Audio.Media.TITLE, title);
-        cv.put(MediaStore.Audio.Media.DATA, file.getAbsolutePath());
         cv.put(MediaStore.Audio.Media.DATE_ADDED, (int) (current / 1000));
         cv.put(MediaStore.Audio.Media.DATE_MODIFIED, (int) (modDate / 1000));
         cv.put(MediaStore.Audio.Media.DURATION, sampleLengthMillis);
